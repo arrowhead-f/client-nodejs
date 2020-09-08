@@ -104,7 +104,7 @@ export async function query(serviceQueryForm) {
       })
       .catch(error => {
         console.log('Error during querying requested service', error)
-        return reject(error.response.data.errorMessage)
+        return reject(error.response ? error.response.data.errorMessage : error)
       })
   })
 }
