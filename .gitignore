@@ -1,8 +1,9 @@
 # OSX
 .DS_Store
 
-consumer/certificates/**
-provider/certificates/**
+**/certificates/**
+system/coreSystemInfo.json
+
 
 # Logs
 logs

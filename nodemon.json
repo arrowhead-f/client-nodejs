@@ -2,14 +2,15 @@
   "restartable": "rs",
   "ignore": [
     ".git",
-    "node_modules/**/node_modules"
+    "node_modules/**/node_modules",
+    "system/coreSystemInfo.json"
   ],
   "verbose": true,
   "execMap": {
     "js": "node"
   },
   "watch": [
-    "provider/**/*"
+    "system/**/*"
   ],
   "env": {
     "NODE_ENV": "development"
